@@ -8,7 +8,7 @@ class StaticChartsController < ApplicationController
   def about 
   end 
 
-  def contact
+  def contact 
   end 
 
   

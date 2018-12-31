@@ -5,6 +5,11 @@ class StaticChartsControllerTest < ActionDispatch::IntegrationTest
     @base_title = "Charts Heaven"
   end 
 
+  test "should get root" do
+    get root_url
+    assert_response :success
+  end 
+
   test "should get home" do
     get static_charts_home_url
     assert_response :success
